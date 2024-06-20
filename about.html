@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University website design</title>
+    <link rel="stylesheet" href="styl.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?
+family=Nunito:wght@200;300;400;600;700&family=Poppins:wght@100;200;300;400;600;700&family=Roboto:wght@100;300;400;500;700&display=swap"
+rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css">
+</head>
+<body>
+<section class="sub-header">
+    <nav>
+        <a href="new.html"><img src="loge.png"></a>
+        <div class="nav-links" id="navLinks">
+            <i class="fa fa-times" onclick="hideMenu()"></i>
+            <ul>
+                <li><a href="new.html">HOME</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="course.html">COURSE</a></li>
+                <li><a href="blog.html">BLOG</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+            </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+    </nav> 
+     <h1>About Us</h1>
+
+
+</section>
+<!----------------about us content------------->
+<section class="about-us">
+    <div class="row">
+        <h1>Country's Prestigious University</h1>
+        <p>Eduford University is one of the top ranking universities in the Country
+        India with over 50,000 full-time students and more than 
+        3500 faculty across all the campuses- Bengaluru, New York, Perth
+        - all over India as well as the world.University offers a 
+        wide range of Undergraduate, Graduate and Professional 
+        programs in eight faculties (branches).<br>
+        "To emerge as a world- Class University in creating and disseminating
+        knowledge and providing students a unique Learning
+        Experience."
+        <br>ESTABLISHED in 1984
+        </p>
+         <a href="blog.html" class="hero-btn red-btn">EXPLORE NOW</a>
+    </div>
+        <div class="about-col">
+            <img src="about.jpg">
+        </div>
+    
+</section>
+
+
+    
+
+
+
+
+
+<!---------------footer----------------->
+<section class="footer">
+    <h4>About Us</h4>
+    <p>Any of the information needed can go to any of
+        the various sites.</p>
+    <div class="icons">
+        <img src="fbn.png">
+        <img src="ins1.png">
+        <img src="twitt.png">
+        <img src="linkedin.png">
+    </div>
+    <p>Made with <img src="hrt1.png"> by SRISHTI PRIYA</p>
+</section>
+
+
+
+
+<!-----------JavaScript for Toggle Menu------->
+<script>
+
+
+    var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+</script>
+</body>
+</html>
+
